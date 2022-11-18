@@ -103,7 +103,7 @@ body {
 }
 
 
-.nav-bar > input {
+.nav-bar >  input {
     color: #fff;
     padding: 0.3em;
     background: var(--color-button);
@@ -116,7 +116,7 @@ body {
     cursor: pointer;
 }
 
-.nav-bar > input:hover {
+.nav-bar >  input:hover {
     background: var(--color-background-button-hover);
 }
 .cabecalho > .container-main {

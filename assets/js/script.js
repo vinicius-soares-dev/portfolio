@@ -11,6 +11,12 @@ const cardBookV = document.querySelector('.cardBookV');
 const cardTech = document.querySelector('.cardTech');
 const cardJokenpo = document.querySelector('.cardJokenpo');
 const cardQuizz = document.querySelector('.cardQuizz');
+const buttonContact = document.querySelector('.button-contact');
+
+buttonContact.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.scrollTo(0, document.body.scrollHeight);
+});
 
 frontInput.addEventListener('click', (event) => {
     event.preventDefault();
