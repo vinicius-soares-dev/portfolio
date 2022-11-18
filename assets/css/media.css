@@ -1,0 +1,67 @@
+:root {
+    --font-main: 'Bitter', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-main: #030811;
+    --color-link: #787a7c;
+    --color-button: #09e695;
+    --color-background-button-hover: #06724a;
+}
+
+@media screen and (min-width: 768px) {
+    .main > .resume-project {
+        padding: 1em;
+          
+    }
+
+    span {
+        margin-right: 40em;
+        margin-top: -10em;  
+    }
+
+    
+}
+
+@media screen and (min-width: 1280px) {
+    span {
+        margin-right: 60em;
+        margin-top: 0em;
+        font-size: 18px;
+    }
+
+    .main > .tittle-main {
+        font-size: 2.5em;
+        margin-top: 1em;
+    }
+
+    .main > .resume-project {
+        padding: 2em;
+          
+    }
+
+}
+
+@media screen and (max-width: 359px) {
+
+    span {
+        margin-right: 20em;
+        margin-top: 15em;
+        font-size: 10px;
+    }
+    .main > .tittle-main {
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .main > .resume-project {
+        padding: 0;
+          
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .pageaccess {
+        margin-top: 1em;
+    }
+}

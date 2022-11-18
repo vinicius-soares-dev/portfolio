@@ -1,0 +1,526 @@
+
+:root {
+    --font-main: 'Bitter', serif;
+    --font-secundary: 'Poppins', sans-serif;
+    --color-main: #030811;
+    --color-link: #787a7c;
+    --color-button: #09E695;
+    --color-background-button-hover: #06724a;
+}
+
+
+@media screen and (min-width: 768px) {
+    .cabecalho > .img-main > img {
+        width: 46em;
+        top: 0em;
+    }
+
+    .nav-bar > ul > li {
+        padding: 0em;
+        margin: 1em;
+        font-size: 1.2em;
+       
+    }
+
+    .cabecalho > .container-main {
+        position: absolute;
+        top: 25em;
+    }
+
+    .cabecalho > .container-main > h1 {
+        font-family: var(--font-main);
+        font-size: 5em;
+        color: #fff;
+        text-align: center;
+    }
+
+    .cabecalho > .container-main > .paragraph-container1 {
+        font-size: 1.5em;
+    }
+    
+    .cabecalho > .container-main > .paragraph-container2 {
+        font-size: 1.6em;
+    }
+
+    .cabecalho > .scroll-anime > .img-scroll {
+        width: 5em;
+    }
+
+    .sobre-mim > .sob {
+        position: absolute;
+        top: 13em;
+        left: 8em;
+        width: 500px;
+        height: 600px;
+        background: #091120;
+        border-radius: 0.5em;
+        box-shadow: 0px 0px 5px 1px #000000;
+    }
+
+    .sobre-mim > .sob > p {
+        padding: 15px;
+        text-align: left;
+        line-height: 1.8em;
+        font-family: var(--font-secundary);
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    .tecnologias > .conhecimentos > p {
+        padding: 5em 2em 2em 2em;
+        font-size: 1.5em;
+    }
+
+    .tecnologias > .conhecimentos > h2 {
+        font-size: 1.7em;
+    }
+
+    .tecnologias2 > .conhecimentos2 > p {
+        padding: 5em 2em 2em 2em;
+        font-size: 1.5em;
+    }
+
+    .tecnologias2 > .conhecimentos2 > h2 {
+        font-size: 1.7em;
+    }
+
+    .tecnologias > .img-tech {
+        padding: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .tecnologias > .img-tech2 {
+        padding: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .tecnologias2 > .img-tech3 {
+        padding: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .tecnologias2 > .img-tech4 {
+        padding: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .tecnologias > .img-tech > .box-card > img {
+        margin-left: 3em;
+    }
+    .tecnologias > .img-tech > .box-card2 > img {
+        margin-left: 3em;
+    }
+    .tecnologias > .img-tech2 > .box-card3 > img {
+        margin-left: 3em;
+    }
+    .tecnologias > .img-tech2 > .box-card4 > img {
+        margin-left: 3em;
+    }
+    
+    .tecnologias2 > .img-tech3 > .box-card5 > img {
+        margin-left: 3em;
+    }
+    .tecnologias2 > .img-tech3 > .box-card6 > img {
+        margin-left: 3em;
+    }
+    .tecnologias2 > .img-tech4 > .box-card7 > img {
+        margin-left: 3em;
+    }
+    .tecnologias2 > .img-tech4 > .box-card8 > img {
+        margin-left: 3em;
+    }
+
+    #verMais {
+        padding: 3em;
+    }
+
+    #verAntes {
+        padding: 3em;
+    }
+
+    .projects > p {
+        padding: 5em 2em 2em 2em;
+        font-size: 1.5em;
+    }
+
+    .projects > h2 {
+        font-size: 2em;
+    }
+
+    .projects > .btnInputs > .frontInput {
+        padding: 3em 4em 3em 4em;
+    }
+
+    .projects > .btnInputs > .frontInput:hover {
+        background: var(--color-main);
+        color: var(--color-button);
+        padding: 3em 4em 3em 4em;
+    }
+
+    
+
+
+    .projects > .btnInputs > .backInput {
+        padding: 3em 4.4em 3em 4.4em;
+    }
+
+    .projects > .btnInputs > .backInput:hover {
+        background: var(--color-main);
+        color: var(--color-button);
+        padding: 3em 4.4em 3em 4.4em;
+    }
+
+
+    .projects > .btnInputs > .gameInput {
+        padding: 3em 5em 3em 5em;
+    }
+
+    .projects > .btnInputs > .gameInput:hover {
+        background: var(--color-main);
+        color: var(--color-button);
+        padding: 3em 5em 3em 5em;
+    }
+
+    .contact > p {
+        padding: 6em 1em 1em 1em;
+        font-size: 1.4em;
+    }
+
+    .contact > h2 {
+        font-size: 2em;
+    }
+
+    .contact > .whatsapp > a > .whatsInput {
+        padding: 3em;
+        
+    }
+    
+    .contact > .whatsapp > a > .whatsInput:hover {
+        background: var(--color-main);
+        color: var(--color-button);
+        transition: 1s;
+        padding: 3em;
+    }
+
+    .contact > .github > a > .gitInput {
+        padding: 3em 4em 3em 4em;
+        margin-top: 2em;
+        
+    }
+    
+    .contact > .github > a > .gitInput:hover {
+        background: var(--color-main);
+        color: var(--color-button);
+        transition: 1s;
+        padding: 3em 4em;
+    }
+
+    .contact > .linkedinDiv > a > .linkeInput {
+        padding: 3em 3.4em 3em 3.4em;
+        margin-top: 2em;
+    }
+    
+    .contact > .linkedinDiv > a > .linkeInput:hover {
+        padding: 3em 3.4em 3em 3.4em;
+    }
+       
+}
+
+@media screen and (min-width: 1280px) {
+    .cabecalho > .img-main > img {
+        position: absolute;
+        left: 15em;
+        width: 50em;
+        top: -10em;
+    }
+
+    .cabecalho > .container-main > h1 {
+        font-size: 5em;
+        margin-left: 3em;
+    }
+
+    .cabecalho > .container-main > .paragraph-container1 {
+        font-size: 2em;
+        margin-left: 3em;
+        padding: 0;
+    }
+
+    .cabecalho > .container-main > .paragraph-container2 {
+        font-size: 1.6em;
+        margin-left: 6em;
+        padding: 0;
+    }
+
+    .cabecalho > .scroll-anime > .img-scroll {   
+        width: 5em;
+        margin-left: 5em;  
+    }
+
+    .sobre-mim > .sob {
+        margin-left: 15em;
+    }
+
+    #verMais {
+        padding: 6px;
+        margin-top: 1em;
+    }
+
+    #verAntes {
+        padding: 6px;
+        margin-top: 1em;
+    }
+
+    footer > p {
+        margin-top: 8em;
+    }
+
+
+}
+
+@media screen and (min-width: 1360px) {
+    .cabecalho > .img-main > img {
+        position: absolute;
+        left: 17em;
+        width: 50em;
+        top: -10em;
+    }
+
+    .cabecalho > .scroll-anime > .img-scroll {   
+        width: 4em;
+        margin-left: 5em;  
+    }
+
+    .sobre-mim > .sob  {
+        position: absolute;
+        top: 4em;
+        left: 18em;
+        width: 300px;
+        height: 500px;
+    }
+
+    .sobre-mim > .sob > p {
+        position: relative;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .tecnologias {
+        font-size: 1em;
+    }
+
+    .tecnologias > .conhecimentos > p {
+        color: var(--color-button);
+        padding: 1em;
+        font-size: 1em;
+    }
+    .tecnologias2 > .conhecimentos2 > p {
+        font-size: 1em;
+        color: var(--color-button);
+        padding: 1em;
+    }
+
+    #verMais {
+        padding: 10px;
+        font-family: var(--font-secundary);
+        background: transparent;
+        color: var(--color-button);
+
+    }
+    #verAntes {
+        padding: 10px;
+        font-family: var(--font-secundary);
+        background: transparent;
+        color: var(--color-button);
+
+    }
+
+    .projects {
+        padding: 0em;
+        
+    }
+
+    .projects > p {
+        padding: 2;
+        font-size: 1em;
+    }
+
+    .projects > .frontProjects > .cardFuerza {
+        margin-top: 1em;
+    }
+    .projects > .backProjects > .cardBookV {
+        margin-top: 1em;
+    }
+    .projects > .gamesProjects > .cardJokenpo {
+        margin-top: 1em;
+    }
+
+
+    .contact {
+        padding: 0em;
+    }
+
+    .contact > p {
+        padding: 2;
+        font-size: 1em;
+    }
+
+    .contact > h2 {
+        padding: 0em;
+        
+    }
+
+    footer > p {
+        
+        margin-top: 6em;
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .cabecalho > .img-main > img {
+        width: 25em;
+        margin-left: -1em;
+    }
+
+    .sobre-mim > .sob {
+    
+        position: absolute;
+        top: 0em;
+        left: 2em;
+        width: 300px;
+        height: 480px;
+        margin-top: 10em;
+    }
+
+    footer > p {
+        margin-top: 25em;
+    
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    .cabecalho > .img-main > img {
+        width: 22em;
+    }
+
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cabecalho > .container-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho > .container-main > h1 {
+        font-size: 2em;
+    }
+
+    .cabecalho > .container-main > .paragraph-container1 {
+        padding: 0em;
+    }
+
+    .cabecalho > .container-main > .paragraph-container2 {
+        padding: 1em;
+    }
+
+    .cabecalho > .scroll-anime > .img-scroll {   
+        width: 2em;  
+    }
+
+    .sobre-mim > .sob {
+        position: relative;
+        top: 0em;
+        left: 0.6em;
+        width: 300px;
+        height: 500px;
+        font-size: 1em;
+        background: #091120;
+        border-radius: 0.5em;
+        box-shadow: 0px 0px 5px 1px #000000;
+    
+    }
+
+    .tecnologias > .img-tech {
+        padding: 1px 15px;
+        
+    }
+    
+    .img-tech2 {
+        padding: 1px 15px;
+        
+    }
+
+    .tecnologias2 > .img-tech3 {
+        padding: 1px 15px;
+        
+    }
+    .tecnologias2 > .img-tech4 {
+        padding: 1px 15px;
+       
+    }
+
+    .tecnologias > #verMais {
+        padding: 10px;
+        margin-top: 0.5em;
+    }
+
+    .tecnologias2 > #verAntes {
+        padding: 10px;
+        margin-top: 0.5em;
+    }
+    
+    .projects > .btnInputs > input {
+        margin-top: 0.3em;
+    }
+
+    .projects > .frontProjects > .cardFuerza {
+        margin-top: 1em;
+    }
+    .projects > .backProjects> .cardBookV {
+        margin-top: 1em;
+    }
+    .projects > .gamesProjects > .cardJokenpo {
+        margin-top: 1em;
+    }
+
+    .contact > p {
+        color: var(--color-button);
+        padding: 8em 1em 1em 1em;
+        font-family: var(--font-secundary);
+        text-align: left;
+    }
+
+    footer > p {
+        font-family: var(--font-secundary);
+        color: var(--color-button);
+        margin-top: 8em;
+        margin-bottom: 0.3em;
+    }
+    
+}
